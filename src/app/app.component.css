@@ -1,0 +1,76 @@
+header{
+    padding:10px;
+    background-color: dimgray;
+}
+header h2{
+    padding:5px 10px;
+    color:white;
+}
+
+.spacer{
+    height:20px;
+    
+}
+#welcome{
+    color:blue;
+    padding-left:50px;
+    font-family: 'Times New Roman', serif;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px rgb(114, 107, 121);
+}
+#body{
+    width:100%;
+    display: inline-flex;
+}
+#body .signupFirstColumn, #body .loginWithDetail{
+    width: 50%;
+    padding-top: 50px;
+    text-align: center;
+}
+#body .signupFirstColumn .signupbox, #body .loginWithDetail .signupbox {
+    width:80%;
+    padding: 0px 50px;
+    align-content: center;
+}
+.fb{
+    padding:15px;
+    width:80%;
+    font-size: larger;
+    font-weight: 300;
+    border-radius: 30px;
+    color: wheat;
+    background-color: mediumblue;
+}
+.google{
+    padding:15px;
+    width:80%;
+    font-size: larger;
+    font-weight: 300;
+    border-radius: 30px;
+    color:gray;
+    
+}
+fieldset #innerBox{
+    float: left;
+}
+form section{
+    font-size: larger;
+    font-weight: 300;
+}
+input[type=text],input[type=email] ,input[type=password],select{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid gray;
+   
+  }
+
+  #register button{
+      margin: 20px;
+      width:40%;
+    padding: 10px;
+    color: bisque;
+    background-color:blue;
+    border-radius: 20px;
+  }
