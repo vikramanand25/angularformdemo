@@ -21,6 +21,7 @@
       <button class="google">sign up with Google</button>
       <div class="spacer"></div>
       <hr />
+      
     </div>
   </div>
   <!--Form: get user details-->
@@ -78,8 +79,9 @@
             </fieldset>
 
             <div id="register"><button (onclick)="submitNewUserData(userData)">Register</button>
+              
             </div>
-
+            <button mat-button color="primary">Primary</button>
           </fieldset>
 
         </section>
@@ -89,4 +91,5 @@
 </div>
 
 <p>{{userinfo.value}}</p>
+<app-admin></app-admin>
 <div class="spacer"></div>
